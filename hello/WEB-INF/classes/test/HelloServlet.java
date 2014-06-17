@@ -14,6 +14,7 @@ public class HelloServlet extends HttpServlet {
 
     out.println("Hello, world!");
 	out.println("Hello, world again!!!");
-    out.close();
+	out.println("Hello, world once again!!!");
+	out.close();
   }
 }
