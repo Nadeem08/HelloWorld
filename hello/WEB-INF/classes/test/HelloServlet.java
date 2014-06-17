@@ -13,6 +13,7 @@ public class HelloServlet extends HttpServlet {
     PrintWriter out = res.getWriter();
 
     out.println("Hello, world!");
+	out.println("Hello, world again!!!");
     out.close();
   }
 }
